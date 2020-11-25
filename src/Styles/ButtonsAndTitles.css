@@ -1,0 +1,29 @@
+.script-title{
+    color: black; 
+    font-family: 'Droid serif', serif; 
+    font-size: 48px; 
+    font-weight: 550; 
+    font-style: bold; 
+    line-height: 44px; 
+    margin: 0 0 12px; 
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  
+  .scripts-btn:disabled{
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(255,191,87,1) 0%, rgba(255,191,87,1) 9%, rgba(214,132,0,1) 100%) !important;
+    border-color: rgb(184, 125, 0) !important;
+    max-width: fit-content;
+  }
+  
+  .scripts-btn{
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,191,87,1) 0%, rgba(255,191,87,1) 9%, rgba(214,132,0,1) 100%) !important;
+    border-color: rgb(184, 125, 0) !important;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .scripts-btn:hover{
+    transform: scale(1.1);
+  }

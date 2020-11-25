@@ -1,0 +1,37 @@
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15vw;
+    margin: auto;
+  }
+  
+  .mydropdown{
+    margin-right: 1vw;
+  }
+  
+  .btn-success{
+    background-color: rgba(10, 10, 10, 0.747) !important;
+    border-color:orange !important;
+    color: orange !important;
+  }
+    
+  .walloffame-results{
+    margin-top:10vh;
+    text-align: center;
+  
+  }
+  
+  
+  .myTable{
+    margin:auto; 
+    margin-top:5vh; 
+    width:80vw !important;
+    text-align: center; 
+    border-radius: 3vh;
+    border-collapse:collapse;
+  }
+  
+  .myTable td, .myTable th, .myTable tr{
+    border: none !important;
+  }

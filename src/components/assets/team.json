@@ -1,0 +1,73 @@
+[
+  {
+    "image_url": "./images/stefania.jpg",
+    "card_name": "Ciobotaru Stefania",
+    "card_title": "Scrum Master"
+  },
+  {
+    "image_url": "./images/alexandra.jpg",
+    "card_name": "Fofel Alexandra",
+    "card_title": "Product Owner"
+  },
+
+  {
+    "image_url": "./images/valeriu.jpg",
+    "card_name": "Scutaru Valeriu",
+    "card_title": "PRM"
+  },
+
+  {
+    "image_url": "./images/ritesh.jpg",
+    "card_name": "Hegde Ritesh",
+    "card_title": "PRM"
+  },
+
+  {
+    "image_url": "./images/ciprian.jpg",
+    "card_name": "Amitroae Ciprian",
+    "card_title": "PRM"
+  },
+
+  {
+    "image_url": "./images/madalin.jpg",
+    "card_name": "Mindru Madalin",
+    "card_title": "Intern"
+  },
+
+  {
+    "image_url": "./images/matei.jpg",
+    "card_name": "Matei Acsinte",
+    "card_title": "Intern"
+  },
+
+  {
+    "image_url": "./images/tiberiu.jpg",
+    "card_name": "Sipoteanu Tiberiu",
+    "card_title": "Intern"
+  },
+
+  {
+    "image_url": "./images/tudor.jpg",
+    "card_name": "Muntean Tudor",
+    "card_title": "Intern"
+  },
+
+  {
+    "image_url": "./images/octavian.jpg",
+    "card_name": "Cotfasa-Huma",
+    "card_first_name": "Octavian",
+    "card_title": "Intern"
+  },
+
+  {
+    "image_url": "./images/mihnea.jpg",
+    "card_name": "Amihailesei Mihnea",
+    "card_title": "Intern"
+  },
+
+  {
+    "image_url": "./images/andrei.jpg",
+    "card_name": "Popa Andrei",
+    "card_title": "Intern"
+  }
+]

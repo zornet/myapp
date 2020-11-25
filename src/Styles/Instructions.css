@@ -1,0 +1,33 @@
+.instructions-wrapper{
+    display:flex; 
+    justify-content:space-around; 
+    flex-wrap:wrap;
+  }
+  
+  .instructions{
+    max-width: 600px;
+    margin:1%;
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,191,87,1) 0%, rgba(255,191,87,1) 9%, rgba(214,132,0,1) 100%);
+    color:black;
+  }
+  
+  .instructions-card-header{
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(87,86,87,1) 0%, rgba(0,0,0,1) 100%);
+    font-family: Georgia, serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+  }
+  
+  .instructions-card-title{
+    text-decoration: underline;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+  }

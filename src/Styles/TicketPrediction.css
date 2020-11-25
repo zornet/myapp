@@ -1,0 +1,88 @@
+.text-box {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 12px 0;
+    margin-right: 8px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+  .text-box:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+  }
+  
+  .prediction-form {
+    margin-left: 5px;
+    margin-top: 12px;
+  }
+  
+  .font1_5 {
+    font-size: 150%;
+  }
+  
+  .font1_3 {
+    font-size: 130%;
+  }
+  
+  .min_font_70 {
+    font-size: 65%;
+  }
+  
+  .ticket-menu-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
+  .ticket-menu-elements > * {
+    padding: 1.5em;
+  }
+  
+  .row-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .min-w {
+    min-width: 100px;
+  }
+  
+  .margin-padding-reset {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+  }
+  
+  .sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid black;
+  }
+  
+  ul li:hover a {
+    padding-left: 50px;
+  }
+  
+  .cisco-display {
+    color: white;
+  }

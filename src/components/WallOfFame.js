@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from 'axios';
-import Select from 'react-select';
 import { Button } from 'react-bootstrap'
 import { Dropdown } from "react-bootstrap";
 import "../Styles/WallOfFame.css"
@@ -15,17 +14,10 @@ const issuetypes_rules = {
     'All issuetypes': []
 }
 
-function Greetings(props) {
-    return (
-        <div>
-            <h2>{props.project}</h2>
-            <h2>{props.issuetype}</h2>
-        </div>
-    );
-}
+
 
 function Results(props){
-    if(props.nrOkIssues == 'not set'){
+    if(props.nrOkIssues === 'not set'){
         return(
           <p> </p>  
         );
@@ -121,7 +113,7 @@ class WallOfFame extends React.Component {
                         </Dropdown.Menu>
                     </Dropdown>
                     <div>
-                        <Button className='scripts-btn' disabled={this.state.selectedProject == 'choose project'} onClick={this.getResults}>Go</Button>
+                        <Button className='scripts-btn' disabled={this.state.selectedProject === 'choose project'} onClick={this.getResults}>Go</Button>
                     </div>
                 </div>
                 {/* <div>

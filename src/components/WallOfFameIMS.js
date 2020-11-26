@@ -4,8 +4,6 @@ import axios from 'axios';
 import { Button } from 'react-bootstrap'
 import { Dropdown } from "react-bootstrap";
 import Table from 'react-bootstrap/Table';
-import { ThemeConsumer } from "react-bootstrap/esm/ThemeProvider";
-import Footer from './Footer';
 
 
 const issuetypes_rules = {
@@ -27,7 +25,7 @@ function Greetings(props) {
 }
 
 function Results(props) {
-    if (props.project == '') {
+    if (props.project === '') {
         return (
             <p> </p>
         );
@@ -42,7 +40,7 @@ function Results(props) {
 
 
 function RenderTable(props) {
-    if (props.rules == '') {
+    if (props.rules === '') {
         return (
             <p> </p>
         );
@@ -160,7 +158,7 @@ class WallOfFameIMS extends React.Component {
                         </Dropdown.Menu>
                     </Dropdown>
                     <div>
-                        <Button className='scripts-btn' disabled={this.state.selectedProject == 'choose project'} onClick={this.getResults}>Go</Button>
+                        <Button className='scripts-btn' disabled={this.state.selectedProject === 'choose project'} onClick={this.getResults}>Go</Button>
                     </div>
                 </div>
                 {/* <div>
